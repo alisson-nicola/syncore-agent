@@ -1,0 +1,20 @@
+# Configuração local (contém token — nunca versionar)
+agent.conf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Binário compilado
+syncore-agent
+syncore-agent.exe
+
+# Backup de update
+*.backup
